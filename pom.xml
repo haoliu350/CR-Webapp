@@ -3,7 +3,7 @@
 	<groupId>com.fitch.cr</groupId>
 	<artifactId>CR-webapp</artifactId>
 	<packaging>war</packaging>
-	<version>1.1</version>
+	<version>1.2</version>
 	<name>CR Lottery</name>
 	<url>http://maven.apache.org</url>
 	<properties>
@@ -105,6 +105,9 @@
 	            <version>1.0-m5.1</version>
 	            <configuration>
 	                <!-- see goals wiki page for configuration options -->
+	                <autoVersionSubmodules>true</autoVersionSubmodules>
+	                <enableSshAgent>true</enableSshAgent>
+	                <pushReleases>true</pushReleases>
 	            </configuration>
 	        </plugin>
 
