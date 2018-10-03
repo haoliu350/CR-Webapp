@@ -105,6 +105,9 @@
 	            <version>1.0-m5.1</version>
 	            <configuration>
 	                <!-- see goals wiki page for configuration options -->
+	                <autoVersionSubmodules>true</autoVersionSubmodules>
+	                <enableSshAgent>true</enableSshAgent>
+	                <pushReleases>true</pushReleases>
 	            </configuration>
 	        </plugin>
 
