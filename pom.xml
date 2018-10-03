@@ -3,7 +3,7 @@
 	<groupId>com.fitch.cr</groupId>
 	<artifactId>CR-webapp</artifactId>
 	<packaging>war</packaging>
-	<version>1.5-SNAPSHOT</version>
+	<version>1.6-SNAPSHOT</version>
 	<name>CR Lottery</name>
 	<url>http://maven.apache.org</url>
 	<properties>
