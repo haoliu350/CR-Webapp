@@ -107,7 +107,6 @@
 	                <!-- see goals wiki page for configuration options -->
 	                <autoVersionSubmodules>true</autoVersionSubmodules>
 	                <enableSshAgent>true</enableSshAgent>
-	                <pushReleases>true</pushReleases>
 	            </configuration>
 	        </plugin>
 
